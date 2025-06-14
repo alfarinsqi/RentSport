@@ -3,7 +3,7 @@
 RentSport adalah sistem berbasis web untuk melakukan reservasi lapangan olahraga. Aplikasi ini dibangun menggunakan PHP dan MySQL serta memanfaatkan fitur-fitur lanjutan pada level database seperti stored procedure, stored function, trigger, transaction, dan backup terjadwal. Tujuan dari sistem ini adalah memberikan pengalaman reservasi yang efisien, andal, dan aman bagi pengguna dan pengelola.
 
 **Dashboard User**
-![Dashboard](assets/img/dashboard.png)
+![Dashboard](assets/img/dashboard.jpg)
 
 **Dashboard Admin**
 ![DashboardAdmin](assets/img/dashboard_admin.jpg) 

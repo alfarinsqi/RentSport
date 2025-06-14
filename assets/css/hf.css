@@ -1,0 +1,71 @@
+/* Styling untuk body dan layout keseluruhan menggunakan Flexbox */
+body {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen secara vertikal */
+    margin: 0; /* Menghilangkan margin default di body */
+    padding: 0; /* Menghilangkan padding default */
+    min-height: 100vh; /* Pastikan halaman menggunakan seluruh tinggi layar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header tetap di atas */
+header {
+    background: linear-gradient(to right, #a65bf6, #2575FC) !important;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(140, 0, 255, 0.7) !important; /* Warna semi-transparan navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff !important; /* Warna teks putih untuk navbar-brand */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Warna teks navbar putih */
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2575FC !important; /* Warna biru saat hover */
+}
+
+/* Konten halaman */
+.dashboard-container {
+    flex-grow: 1; /* Membuat konten utama mengisi ruang yang tersisa */
+    margin-top: 80px; /* Memberikan jarak setelah navbar fixed */
+    padding: 20px;
+    background-color: #fff; /* Background putih */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk Footer */
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Memastikan footer tetap di bawah halaman */
+}
+
+footer .container {
+    font-size: 0.9rem;
+    color: #555;
+}
